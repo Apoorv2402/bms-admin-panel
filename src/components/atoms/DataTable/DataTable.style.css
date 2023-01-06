@@ -1,0 +1,47 @@
+.MuiDataGrid-root {
+  background: #fff;
+  box-shadow: 0px 9px 24px 0px rgb(0 0 0 / 8%);
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.MuiDataGrid-root .MuiDataGrid-columnHeader {
+  border-right: 1px solid silver;
+}
+.MuiDataGrid-root .MuiDataGrid-columnHeader .MuiDataGrid-columnSeparator {
+  display: none;
+}
+.MuiDataGrid-root .MuiDataGrid-pinnedColumnHeaders .MuiDataGrid-columnHeader {
+  background: #232323;
+  color: #fff;
+}
+.MuiDataGrid-root .MuiDataGrid-columnHeadersInner {
+  background: #000;
+  color: #fff;
+}
+.MuiDataGrid-columnHeadersInner .MuiDataGrid-columnHeaderTitle {
+  font-weight: 500;
+  color: #fff;
+}
+.MuiDataGrid-root .MuiDataGrid-footerContainer {
+  background: #e5e5e5;
+  max-height: 30px;
+  min-height: 30px;
+}
+.MuiDataGrid-root .MuiDataGrid-cell {
+  border-right: 1px solid silver;
+}
+.MuiDataGrid-root .MuiDataGrid-menuIcon .MuiButtonBase-root {
+  color: #137ea4;
+}
+.MuiDataGrid-root .MuiDataGrid-row.Mui-selected .MuiDataGrid-cell {
+  background-color: #137ea4;
+  color: #fff;
+}
+.MuiDataGrid-root .MuiDataGrid-row .MuiDataGrid-cell:focus {
+  outline: none;
+}
+.MuiDataGrid-root .MuiDataGrid-sortIcon {
+  color: #137ea4;
+}

@@ -1,0 +1,37 @@
+html,
+body,
+div#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica, 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* mui button */
+button.MuiButton-root {
+  font-weight: 500;
+  text-transform: none;
+}
+a.MuiButton-sizeLarge,
+button.MuiButton-sizeLarge {
+  border-radius: 40px;
+}
+a.MuiButton-sizeMedium,
+button.MuiButton-sizeMedium {
+  font-size: 1rem;
+  border-radius: 50px;
+  padding: 4px 25px;
+}
+a.MuiButton-sizeSmall,
+button.MuiButton-sizeSmall {
+  border-radius: 40px;
+  padding: 4px 20px;
+}

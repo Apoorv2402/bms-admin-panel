@@ -1,0 +1,49 @@
+div.menu {
+  overflow: hidden;
+}
+div.menu > div {
+  top: 60px;
+  background-color: #232323;
+  color: #fff;
+  max-height: calc(100vh - 90px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: width 150ms;
+}
+div.menu.collapsed > div {
+  width: 55px;
+}
+div.menu.expanded > div {
+  width: 250px;
+}
+div.menu.expanded.open > div {
+  -webkit-box-shadow: 20px 0px 49px 7px rgba(0, 0, 0, 0.44);
+  box-shadow: 20px 0px 49px 7px rgba(0, 0, 0, 0.44);
+}
+div.menu .MuiListItem-root,
+div.menu .MuiListItem-root .MuiListItemButton-root {
+  max-height: 30px;
+}
+div.menu .MuiListItem-root .MuiListItemButton-root .MuiListItemIcon-root {
+  color: #fff;
+}
+div.menu .MuiListItem-root.selected .MuiListItemButton-root {
+  background-color: #137ea4;
+}
+
+div.menu .MuiListItem-root .MuiListItemButton-root:hover,
+div.menu .MuiListItem-root .MuiListItemButton-root:hover .MuiListItemIcon-root {
+  color: #137ea4;
+}
+
+div.menu .MuiListItem-root .MuiListItemButton-root .add-fav {
+  display: none;
+}
+div.menu .MuiListItem-root .MuiListItemButton-root:hover .add-fav {
+  display: block;
+}
+
+div.menu .MuiListItem-root.selected .MuiListItemButton-root:hover,
+div.menu .MuiListItem-root.selected .MuiListItemButton-root:hover .MuiListItemIcon-root {
+  color: #fff;
+}
